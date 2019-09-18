@@ -25,3 +25,22 @@ hs_err_pid*
 # IntelliJ IDEA files
 *.iml
 .idea/
+
+# emacs
+*~
+
+*.class
+*.jar
+target/
+/bin/
+/dist/
+.settings/
+/**/.classpath
+/**/.project
+
+/.project
+nb-configuration.xml
+
+# mac
+.DS_Store
+
