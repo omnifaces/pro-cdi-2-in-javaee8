@@ -10,6 +10,12 @@
 	</prerequisites>
 	<modules>
 		<module>scopes</module>
+		<module>events</module>
+		<module>decorators-and-interceptors</module>
+		<module>javase</module>
+		<module>beans</module>
+		<module>identifyingbeans</module>
+		<module>dynamicbeans</module>
 	</modules>
 
 	<groupId>org.omnifaces.procdi</groupId>
