@@ -11,6 +11,8 @@
 
 	<artifactId>scopes</artifactId>
 	<packaging>pom</packaging>
+
+	<name>Chapter 4 Scopes and Contexts</name>
 	<modules>
 		<module>customscope</module>
 	</modules>
