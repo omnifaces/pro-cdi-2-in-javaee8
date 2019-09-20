@@ -9,11 +9,11 @@
 		<maven>3.0.0</maven>
 	</prerequisites>
 	<modules>
+        <module>chapter2-beans</module>
 		<module>scopes</module>
 		<module>events</module>
 		<module>decorators-and-interceptors</module>
 		<module>javase</module>
-		<module>beans</module>
 		<module>identifyingbeans</module>
 		<module>dynamicbeans</module>
 	</modules>
@@ -35,6 +35,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <failOnMissingWebXml>false</failOnMissingWebXml> 
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
@@ -49,4 +50,12 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+    
+        <dependencies>
+            <!-- Target Java EE 8 server. -->
+            <dependency>
+                <groupId>javax</groupId>
+                <artifactId>javaee-api</artifactId>
+            </dependency>
+        </dependencies>
 </project>
