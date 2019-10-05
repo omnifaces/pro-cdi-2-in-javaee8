@@ -16,6 +16,7 @@
 	<modules>
 		<module>109-programmatic-request-scope-activation</module>
 		<module>110-interceptor-request-scope-activation</module>
+		<module>116-exposing-nonproxyable-types</module>
 		<module>customscope</module>
 		<module>scopes-common</module>
 	</modules>
