@@ -11,6 +11,8 @@
 
 	<artifactId>119-scope-events</artifactId>
 
+	<name>Chapter 4 - page 119 - Scope lifecycle events</name>
+
 	<profiles>
 		<profile>
 			<id>weld</id>

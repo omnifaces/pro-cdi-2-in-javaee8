@@ -11,6 +11,7 @@
 
 	<artifactId>109-programmatic-request-scope-activation</artifactId>
 
+	<name>Chapter 4 - page 109 - Programmatic Request scope activation</name>
 	<dependencies>
 		<dependency>
 			<groupId>javax</groupId>

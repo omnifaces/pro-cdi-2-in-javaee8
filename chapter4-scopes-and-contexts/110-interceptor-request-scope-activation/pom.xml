@@ -11,6 +11,8 @@
 
 	<artifactId>110-interceptor-request-scope-activation</artifactId>
 
+	<name>Chapter 4 - page 100 - Interceptor-based request scope activation</name>
+
 	<dependencies>
 		<dependency>
 			<groupId>javax</groupId>

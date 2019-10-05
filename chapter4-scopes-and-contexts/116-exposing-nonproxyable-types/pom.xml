@@ -11,6 +11,8 @@
 
 	<artifactId>116-exposing-nonproxyable-types</artifactId>
 
+	<name>Chapter 4 - page 116 - Exposing non-proxyable types</name>
+
 	<dependencies>
 		<dependency>
 			<groupId>javax</groupId>
