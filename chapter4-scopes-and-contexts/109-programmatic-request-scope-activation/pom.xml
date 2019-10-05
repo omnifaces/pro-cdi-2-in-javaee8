@@ -9,8 +9,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>programmatic-request-scope</artifactId>
-
+	<artifactId>109-programmatic-request-scope-activation</artifactId>
 
 	<dependencies>
 		<dependency>

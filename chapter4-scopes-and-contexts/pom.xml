@@ -14,10 +14,9 @@
 
 	<name>Chapter 4 - Scopes and Contexts</name>
 	<modules>
+		<module>109-programmatic-request-scope-activation</module>
 		<module>customscope</module>
 		<module>scopes-common</module>
-		<module>programmatic-request-scope</module>
 	</modules>
-
 
 </project>
