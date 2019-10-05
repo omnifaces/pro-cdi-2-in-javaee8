@@ -1,4 +1,4 @@
-package org.omnifaces.scopes.events;
+package org.omnifaces.procdi.scopes.events;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.BeforeDestroyed;

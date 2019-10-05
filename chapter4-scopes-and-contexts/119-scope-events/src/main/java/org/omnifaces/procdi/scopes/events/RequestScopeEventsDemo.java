@@ -1,4 +1,4 @@
-package org.omnifaces.scopes.events;
+package org.omnifaces.procdi.scopes.events;
 
 import javax.enterprise.context.control.RequestContextController;
 import javax.enterprise.inject.se.SeContainer;
@@ -17,6 +17,6 @@ public class RequestScopeEventsDemo {
 	}
 
 	private static SeContainer createContainer() {
-		return SeContainerInitializer.newInstance().disableDiscovery().addBeanClasses(RequestScopeEvents.class).initialize();
+		return SeContainerInitializer.newInstance().initialize();
 	}
 }
