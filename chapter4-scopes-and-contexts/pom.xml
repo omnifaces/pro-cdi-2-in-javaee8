@@ -15,6 +15,7 @@
 	<name>Chapter 4 - Scopes and Contexts</name>
 	<modules>
 		<module>109-programmatic-request-scope-activation</module>
+		<module>110-interceptor-request-scope-activation</module>
 		<module>customscope</module>
 		<module>scopes-common</module>
 	</modules>
