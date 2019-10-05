@@ -10,8 +10,11 @@ public class RequestScopeEventsDemo {
 		try (SeContainer container = createContainer()) {
 			var requestContextController = container.select(RequestContextController.class).get();
 
+			// Create a new request scope, this will fire the @Initialized event.
 			requestContextController.activate();
 
+
+			// Destroy the request scope, this will fire both the @BeforeDestroyed and @Destroyed events.
 			requestContextController.deactivate();
 		}
 	}
