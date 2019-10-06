@@ -8,3 +8,4 @@ This module contains the source code for the examples from chapter 4 of the book
  * [Interceptor based request scope activation](110-interceptor-request-scope-activation)
  * [Exposing non-proxyable types as beans](116-exposing-nonproxyable-types)
  * [Scope events](119-scope-events)
+ * [Custom scope](128-custom-scope)

@@ -12,12 +12,21 @@ import javax.enterprise.context.spi.CreationalContext;
 
 public class CustomScopeContext implements Context {
 
+	private static final CustomScopeContext INSTANCE = new CustomScopeContext();
+
 	private static final ThreadLocal<AtomicReference<String>>
 			ACTIVE_SCOPE_THREAD_LOCAL =
 			ThreadLocal.withInitial(AtomicReference::new);
 
 	private final ConcurrentHashMap<String, Map<Contextual<?>, BeanInstance<?>>>
 			cache = new ConcurrentHashMap<>();
+
+	private CustomScopeContext() {
+	}
+
+	public static CustomScopeContext getInstance(){
+		return INSTANCE;
+	}
 
 	@Override
 	public boolean isActive() {
