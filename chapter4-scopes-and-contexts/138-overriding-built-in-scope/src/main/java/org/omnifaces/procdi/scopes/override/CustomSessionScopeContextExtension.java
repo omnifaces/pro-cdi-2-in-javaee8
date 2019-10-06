@@ -13,7 +13,6 @@ public class CustomSessionScopeContextExtension implements Extension {
 	}
 
 	public void afterBeanDiscovery(@Observes AfterBeanDiscovery abd) {
-		context = new CustomSessionScopeContext();
-		abd.addContext(context);
+		abd.addContext(CustomSessionScopeContext.getInstance());
 	}
 }

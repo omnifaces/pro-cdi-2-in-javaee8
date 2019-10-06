@@ -10,22 +10,20 @@ import org.junit.jupiter.api.Test;
 class CustomSessionScopeContextTest {
 
 	private SeContainer seContainer;
-	private CustomSessionScopeContextExtension extension;
+	private CustomSessionScopeContext context;
 
 	@BeforeEach
 	public void init() {
-		extension = new CustomSessionScopeContextExtension();
 		seContainer = SeContainerInitializer.newInstance()
-		                                    .addExtensions(extension)
-		                                    .addBeanClasses(SessionScopedTestBean.class)
 		                                    .initialize();
+		context = CustomSessionScopeContext.getInstance();
 	}
 
 	@Test
 	public void test() {
-		extension.getContext().start("foo");
+		context.start("foo");
 		seContainer.select(SessionScopedTestBean.class).get().logHelloSessionScope();
-		extension.getContext().suspend();
+		context.suspend();
 	}
 
 	@AfterEach

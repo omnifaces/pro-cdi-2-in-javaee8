@@ -13,9 +13,17 @@ import javax.enterprise.context.spi.CreationalContext;
 
 public class CustomSessionScopeContext implements Context {
 
+    private static final CustomSessionScopeContext INSTANCE = new CustomSessionScopeContext();
+
     private static final ThreadLocal<AtomicReference<String>>
       ACTIVE_SCOPE_THREAD_LOCAL =
       ThreadLocal.withInitial(AtomicReference::new);
+
+    private CustomSessionScopeContext(){}
+
+    public static CustomSessionScopeContext getInstance() {
+        return INSTANCE;
+    }
 
     @Override
     public boolean isActive() {
