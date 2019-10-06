@@ -1,4 +1,4 @@
-# Scope events
+# Custom scope
 
 This example show how to listen for CDI scope lifecycle events. 
 
