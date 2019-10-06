@@ -11,11 +11,11 @@
 	<modules>
 		<module>chapter2-beans</module>
 		<module>chapter4-scopes-and-contexts</module>
-		<module>events</module>
 		<module>decorators-and-interceptors</module>
 		<module>javase</module>
 		<module>identifyingbeans</module>
 		<module>dynamicbeans</module>
+		<module>chapter5-events</module>
 	</modules>
 
 	<groupId>org.omnifaces.procdi</groupId>
