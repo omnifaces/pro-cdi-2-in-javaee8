@@ -9,3 +9,4 @@ This module contains the source code for the examples from chapter 4 of the book
  * [Exposing non-proxyable types as beans](116-exposing-nonproxyable-types)
  * [Scope events](119-scope-events)
  * [Custom scope](128-custom-scope)
+ * [Overriding a built-in scope](138-overriding-built-in-scope)

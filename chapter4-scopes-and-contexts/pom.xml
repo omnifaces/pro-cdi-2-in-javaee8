@@ -21,6 +21,7 @@
 		<module>128-custom-scope</module>
 		<module>136-passivation-capable-custom-scope</module>
 		<module>scopes-common</module>
+		<module>138-overriding-built-in-scope</module>
 	</modules>
 
 </project>
