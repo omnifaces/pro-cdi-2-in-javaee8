@@ -12,5 +12,7 @@
 	<artifactId>chapter5-events</artifactId>
 
 	<name>Chapter 5 - Events</name>
-
+	<modules>
+		<module>148-observer-ordering</module>
+	</modules>
 </project>
