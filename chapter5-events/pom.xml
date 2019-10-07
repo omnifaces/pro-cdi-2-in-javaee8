@@ -15,5 +15,6 @@
 	<name>Chapter 5 - Events</name>
 	<modules>
 		<module>145-observer-ordering</module>
+		<module>147-event-metadata</module>
 	</modules>
 </project>
